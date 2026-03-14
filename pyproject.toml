@@ -1,0 +1,20 @@
+[project]
+name = "ai-trading-agent"
+version = "0.1.0"
+description = "A 24/7 AI-powered trading agent using Donchian Channel Breakout Strategy, XGBoost, and Gemini (AI Filter)"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "ccxt>=4.1.0",
+    "pandas>=2.1.0",
+    "numpy>=1.26.0",
+    "pandas-ta>=0.3.14b",
+    "xgboost>=2.0.0",
+    "google-generativeai>=0.3.0",
+    "python-dotenv>=1.0.0",
+    "feedparser>=6.0.10",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
